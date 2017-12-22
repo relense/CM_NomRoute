@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">NomRoute</string>
+    <string name="drawer_open">open</string>
+    <string name="drawer_closed">close</string>
+    <string name="menu_login">Login</string>
+    <string name="menu_register">Register</string>
+    <string name="botao_track">Track</string>
+    <string name="menu_profile">Profile</string>
+    <string name="menu_track">Track</string>
+    <string name="menu_pictures">Pictures Taken</string>
+    <string name="label_username">Username</string>
+    <string name="menu_orders">Saved Orders</string>
+    <string name="input_track_id">Input Track Id</string>
+    <string name="track_id_doesnt_exist">Track Id Doesnt Exist</string>
+    <string name="please_turn_wifi_on">Please Turn Wi-Fi or 3G ON</string>
+    <string name="no_orders_saved">No orders saved</string>
+    <string name="change_email">Change E-Mail</string>
+    <string name="cancel">Cancel</string>
+    <string name="change">Change</string>
+    <string name="fields_cant_be_empty">Fields Cant Be Empty</string>
+    <string name="sucess">Sucess</string>
+    <string name="both_fields_must_match">Both Fields Must Match</string>
+    <string name="enter_new_email">Enter New E-mail</string>
+    <string name="confirm_email">Confirm E-Mail</string>
+    <string name="change_password">Change Password</string>
+    <string name="enter_new_password">Enter New Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="invalid_username_or_password">Invalid Username Or Password</string>
+    <string name="email">E-Mail</string>
+    <string name="fill_all_fields">Fill All Fields</string>
+    <string name="password_doesnt_match">Password Doesnt Match</string>
+    <string name="order_saved">Order Saved</string>
+    <string name="login">Login</string>
+    <string name="orders_saved">Orders Saved</string>
+    <string name="tracks">Tracks</string>
+    <string name="pictures">Pictures</string>
+    <string name="register">Register</string>
+    <string name="change_view">Change View</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyCQiZZk8hLjSU2aBJ1MxvZ2Z_J9R-pEhW4</string>
+
+
+    <string-array name="planets_array">
+        <item>Register</item>
+        <item>Login</item>
+    </string-array>
+
+    <string-array name="planets_array2">
+        <item>Profile</item>
+        <item>Logout</item>
+    </string-array>
+
+    <string-array name="profile_array">
+        <item>Main Menu</item>
+        <item>Saved Orders</item>
+        <item>Pictures Taken</item>
+    </string-array>
+
+    <string-array name="track_array">
+        <item>Main Menu</item>
+        <item>Save Route</item>
+        <item>Take Picture</item>
+        <item>Profile</item>
+    </string-array>
+</resources>

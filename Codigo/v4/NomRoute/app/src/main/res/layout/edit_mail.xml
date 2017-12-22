@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true">
+
+    <EditText
+        android:id="@+id/enterMail1"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_new_email"
+        android:text=""
+        android:singleLine="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/enterMail2"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/confirm_email"
+        android:text=""
+        android:layout_marginTop="11dp"
+        android:singleLine="true"
+        android:layout_below="@+id/enterMail1"
+        android:layout_alignLeft="@+id/enterMail1"
+        android:layout_alignStart="@+id/enterMail1" />
+
+</RelativeLayout>

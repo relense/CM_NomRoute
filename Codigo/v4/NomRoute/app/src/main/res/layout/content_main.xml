@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:focusableInTouchMode="true">
+
+    <Button
+        android:text="@string/botao_track"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:id="@+id/button2"
+        android:layout_below="@+id/track"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/butao_forma"
+        android:onClick="button_track"/>
+
+    <ImageView
+        android:layout_width="119dp"
+        android:layout_height="111dp"
+        app:srcCompat="@drawable/pizza"
+        android:id="@+id/imageView4"
+        android:paddingRight="15dp"
+        android:layout_alignBottom="@+id/imageView5"
+        android:layout_toRightOf="@+id/imageView5"
+        android:layout_toEndOf="@+id/imageView5" />
+
+    <ImageView
+        android:layout_width="115dp"
+        android:layout_height="112dp"
+        app:srcCompat="@drawable/plate"
+        android:id="@+id/imageView5"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp" />
+
+    <ImageView
+        android:layout_width="96dp"
+        android:layout_height="114dp"
+        app:srcCompat="@drawable/burger"
+        android:id="@+id/imageView6"
+        android:paddingLeft="15dp"
+        android:layout_alignBottom="@+id/imageView5"
+        android:layout_toLeftOf="@+id/imageView5"
+        android:layout_toStartOf="@+id/imageView5" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/track"
+        android:hint="@string/input_track_id"
+        android:layout_below="@+id/imageView6"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
